@@ -75,56 +75,6 @@
                 <span class="ml-auto bg-yellow-100 text-yellow-700 text-xs px-2 py-1 rounded-full">3</span>
             </a>
 
-            <!-- Berita Terbit -->
-            <a href="#" class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
-                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-                <span class="font-medium">Terbit</span>
-                <span class="ml-auto bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full">21</span>
-            </a>
-
-            <!-- Kategori Berita -->
-            <a href="#" class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
-                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
-                </svg>
-                <span class="font-medium">Kategori</span>
-            </a>
-        </div>
-
-        <!-- Manajemen Produk -->
-        <div class="pt-4">
-            <h4 class="px-4 text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Produk Batik</h4>
-
-            <a href="#" class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
-                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
-                </svg>
-                <span class="font-medium">Produk</span>
-                <span class="ml-auto bg-batik-light/10 text-batik-dark text-xs px-2 py-1 rounded-full">156</span>
-            </a>
-
-            <a href="#" class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
-                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
-                </svg>
-                <span class="font-medium">Pesanan</span>
-                <span class="ml-auto bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full">12</span>
-            </a>
-        </div>
-
-        <!-- Analytics -->
-        <div class="pt-4">
-            <h4 class="px-4 text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Analytics</h4>
-
-            <a href="#" class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
-                <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                </svg>
-                <span class="font-medium">Statistik</span>
-            </a>
-        </div>
 
         <!-- Settings -->
         <div class="pt-4">
