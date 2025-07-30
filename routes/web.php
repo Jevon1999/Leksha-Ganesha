@@ -17,3 +17,6 @@ Route::post('/login', [AuthController::class, 'store'])->name('login.process');
 
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth');
 
+//FITUR
+Route::get('/formTambahBerita', [DashboardController::class, 'formBerita'])->name('form.berita');
+

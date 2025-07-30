@@ -59,7 +59,7 @@
             </a>
 
             <!-- Tambah Berita -->
-            <a href="#" class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
+            <a href={{ route('form.berita') }} class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
                 <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
                 </svg>
