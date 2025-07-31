@@ -4,9 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 
-Route::get('/', function () {
-    return view('index');
-});
+
+Route::get('/', [DashboardController::class, 'showLandingPage']);
 
 //DASHBOARD
 Route::get('/dashboard', [DashboardController::class, 'showDashboard'])->name('show.dashboard');

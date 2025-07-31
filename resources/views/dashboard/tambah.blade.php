@@ -49,7 +49,6 @@
 
     <div class="lg:ml-72 p-6">
         @livewire('tambah-berita')
-        <h1> tai</h1>
     </div>
 
 </body>
