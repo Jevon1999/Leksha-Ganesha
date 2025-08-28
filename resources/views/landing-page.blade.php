@@ -74,7 +74,7 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="#" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">Beranda</a>
                     <a href="#berita" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">Berita</a>
-                    <a href="#" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">Galeri</a>
+                    <a href="#galer" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">Galeri</a>
                     <a href="#" class="text-amber-700 hover:text-amber-900 font-medium transition-colors">Tentang</a>
                 </div>
             </div>
@@ -109,6 +109,9 @@
 
     <!-- Main Content -->
     <main class="relative z-10 -mt-20">
+        
+        
+        
         <!-- Section Header -->
         <div id="berita" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
             <div class="text-center mb-16" data-aos="fade-up">
@@ -123,6 +126,9 @@
                     Ikuti perkembangan terbaru dunia batik, dari inovasi desain hingga pelestarian budaya
                 </p>
             </div>
+
+            
+            
 
             <!-- News Grid -->
             <div class="space-y-8">
@@ -262,7 +268,104 @@
                 </button>
             </div>
         </div>
+
+
+        
+        
+
+
+
+        <div id="galer" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-full mb-6 shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>                      
+                </div>
+                <h2 class="font-playfair text-4xl md:text-5xl font-bold text-amber-800 mb-4">Galer berkualitas</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-amber-600 to-orange-600 mx-auto rounded-full mb-6"></div>
+                <p class="text-xl text-amber-700 max-w-2xl mx-auto leading-relaxed">
+                    galer ipsum dolor sit pler, sit amet consectetur adipisicing elit. Accusamus assumenda,
+                </p>
+            </div>
+
+
+
+
+            <div class="bg-white-500/10 h-screen h-full py-6 sm:py-8 lg:py-12">
+                <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+
+                    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                        <!-- image - start -->
+                        <a href="#"
+                            class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                            <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            
+                            <div
+                                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+            
+                            <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">VR</span>
+                        </a>
+                        <!-- image - end -->
+            
+                        <!-- image - start -->
+                        <a href="#"
+                            class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                            <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            
+                            <div
+                                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+            
+                            <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+                        </a>
+                        <!-- image - end -->
+            
+                        <!-- image - start -->
+                        <a href="#"
+                            class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            
+                            <div
+                                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+            
+                            <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+                        </a>
+                        <!-- image - end -->
+            
+                        <!-- image - start -->
+                        <a href="#"
+                            class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            
+                            <div
+                                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+            
+                            <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+                        </a>
+                        <!-- image - end -->
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            
+
+        </div>
     </main>
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     <!-- Footer -->
     <footer class="bg-gradient-to-r from-amber-800 to-orange-800 text-white py-12 mt-20">
