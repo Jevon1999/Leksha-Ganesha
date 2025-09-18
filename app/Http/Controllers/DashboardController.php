@@ -17,6 +17,7 @@ class DashboardController extends Controller
 
     public function showLandingPage(){
         $beritas = Berita::all();
+        // dd($beritas[0]->image);
         return view('landing-page', compact('beritas'));
     }
 }

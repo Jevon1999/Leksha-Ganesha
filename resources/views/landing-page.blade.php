@@ -141,9 +141,10 @@
                             <!-- Layout: Image Left, Content Right -->
                             <div class="grid grid-cols-1 lg:grid-cols-2 min-h-[400px]">
                                 <div class="relative overflow-hidden group">
-                                    <img src="{{ asset($berita->image) }}"
+                                    <img src="{{ asset( "storage/" . $berita->image) }}"
                                          alt="{{ $berita->title }}"
                                          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                                        <span>{{ $berita->image }}</span>
                                     <div class="absolute inset-0 bg-gradient-to-r from-transparent to-black/20 group-hover:to-black/40 transition-all duration-300"></div>
                                     <div class="absolute top-4 left-4">
                                         <span class="bg-gradient-to-r from-amber-600 to-orange-600 text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg">
@@ -242,7 +243,7 @@
                                     </div>
                                 </div>
                                 <div class="relative overflow-hidden group order-1 lg:order-2">
-                                    <img src="{{ asset($berita->image) }}"
+                                    <img src="{{ asset("storage/" . $berita->image) }}"
                                          alt="{{ $berita->title }}"
                                          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                                     <div class="absolute inset-0 bg-gradient-to-l from-transparent to-black/20 group-hover:to-black/40 transition-all duration-300"></div>
