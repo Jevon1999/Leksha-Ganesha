@@ -38,7 +38,6 @@ Route::middleware('auth')->group(function () {
     
     
     
-    
     // Route untuk daftar berita dengan operasi CRUD menggunakan Livewire
     Route::get('/admin/berita', function() {
         return view('admin.berita.index');
