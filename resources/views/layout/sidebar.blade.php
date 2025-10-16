@@ -37,7 +37,7 @@
     <!-- Navigation Menu -->
     <nav class="flex-1 p-4 space-y-2 overflow-y-auto">
         <!-- Dashboard -->
-        <a href="#" class="flex items-center space-x-3 px-4 py-3 rounded-xl bg-gradient-to-r from-batik-brown to-batik-light text-white shadow-lg transform transition-all duration-200 hover:scale-105">
+        <a href="{{ route('show.dashboard') }}" class="{{ request()->routeIs('show.dashboard') ? 'flex items-center space-x-3 px-4 py-3 rounded-xl bg-gradient-to-r from-batik-brown to-batik-light text-white shadow-lg transform transition-all duration-200 hover:scale-105' : 'menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group' }}">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"></path>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v0H8v0z"></path>
@@ -50,16 +50,16 @@
             <h4 class="px-4 text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Manajemen Berita</h4>
 
             <!-- Semua Berita -->
-            <a href="#" class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
+            <a href="{{ route('admin.berita.index') }}" class="{{ request()->routeIs('admin.berita.index') ? 'flex items-center space-x-3 px-4 py-3 rounded-xl bg-gradient-to-r from-batik-brown to-batik-light text-white shadow-lg transform transition-all duration-200 hover:scale-105' : 'menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group' }}">
                 <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H15"></path>
                 </svg>
                 <span class="font-medium">Semua Berita</span>
-                <span class="ml-auto bg-batik-light/10 text-batik-dark text-xs px-2 py-1 rounded-full">24</span>
+                {{-- <span class="ml-auto bg-batik-light/10 text-batik-dark text-xs px-2 py-1 rounded-full">24</span> --}}
             </a>
 
             <!-- Tambah Berita -->
-            <a href={{ route('form.berita') }} class="menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group">
+            <a href={{ route('form.berita') }} class="{{ request()->routeIs('form.berita') ? 'flex items-center space-x-3 px-4 py-3 rounded-xl bg-gradient-to-r from-batik-brown to-batik-light text-white shadow-lg transform transition-all duration-200 hover:scale-105' : 'menu-item flex items-center space-x-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-batik-cream/20 hover:text-batik-dark transition-all duration-200 group' }}">
                 <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
                 </svg>
