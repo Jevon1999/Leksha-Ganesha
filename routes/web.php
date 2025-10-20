@@ -44,5 +44,11 @@ Route::middleware('auth')->group(function () {
     })->name('admin.berita.index');
     
     
+    // Route untuk galeri dengan operasi CRUD menggunakan Livewire
+    Route::get('/admin/galeri', function() {
+        return view('admin.galeri.index');
+    })->name('admin.galeri.index');
+    
+    
 });
 
